@@ -48,4 +48,4 @@ var data ={
 }
 ;
 
-document.body.innerHTML = Handlebars.templates.books(data);
+document.getElementById("author-template").innerHTML += data; 
